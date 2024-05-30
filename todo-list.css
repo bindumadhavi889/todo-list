@@ -1,0 +1,33 @@
+body{
+  font-family:arial;
+}
+.todo-visible,
+.todo-invisible{
+  display: grid;
+  grid-template-columns: 200px 150px 100px;
+  column-gap: 10px;
+  row-gap: 5px;
+  margin-top:10px;
+  align-items:center;
+}
+.input-button{
+  font-size: 14px;
+  padding:5px;
+}
+.date-button{
+  padding:4px;
+}
+.add-button{
+  background-color: green;
+  color:white;
+  border:none;
+  padding:6px 20px;
+  font-size:14px;
+}
+.delete-button{
+  font-size:14px;
+  background-color: red;
+  color:white;
+  border:none;
+  padding:6px 20px;  
+}
